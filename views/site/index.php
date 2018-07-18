@@ -61,7 +61,7 @@ $this->title = 'My Yii Application';
                     <div><?= $students->getAttributeLabel('Percent ')?>: <?= $students->percentSportPeople?></div>
                     <div><?= $students->getAttributeLabel('People who go in for sports')?>: <?= $students->sportPeople?></div>
                     <div><?= $students->getAttributeLabel('People who do not go in for sports ')?>: <?= $students->otherPeople?></div>
-                <?endif;?>
+                <?php endif;?>
             </div>
         </div>
 
